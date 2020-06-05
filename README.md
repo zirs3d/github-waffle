@@ -1,5 +1,5 @@
 # github-waffle
-##### sauce hooked on <a target='_blank' href='https://github.com/zirs3d/github-darker'>github</a>
+##### sauce hooked on <a target='_blank' href='https://github.com/zirs3d/github-waffle'>github</a>
 
 This is the Github Darker with Dev/Help Documentation pages for <a target='_blank' href='https://github.com'>Github.com</a> 
 
