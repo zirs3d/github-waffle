@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name               Github Darker with Dev/Help Documentation pages
+@name               Github.io Darker with Dev/Help Documentation pages
 @description        This is the Github Darker with Dev/Help Documentation pages
 @author             zirs3d
 @license            CC0-1.0
-@version            0.0.1
+@version            0.0.2
 @namespace https://greasyfork.org/users/517035
 ==/UserStyle== */
 
@@ -2289,23 +2289,6 @@
     
     @-moz-document url-prefix("https://developer.github.com/"), url-prefix("https://help.github.com/") {
     /** Developer and Help Doc Site **/
-    /** Original colors
-      white-1 - fff
-      white-2 - f6f8fa
-      white-3 - e1e4e8
-      white-4 - d1d5da
-      white-5 - eaecef
-      white-6 - dfe2e5
-      white-7 - ccc
-      black-1 - 24292e
-      black-2 - 6a737d
-      black-3 - 586069
-      black-4 - 444d56
-      blue-1 - 0366d6
-      blue-2 - eaf5ff
-      blue-3 - f1f8ff
-      blue-4 - def
-    **/
     :root {
         --white-1: #1e2022;
         --white-2: #303234;
@@ -2378,6 +2361,14 @@
         background-color: var(--white-5) !important;
     }
     
+    .MarketplaceBackground-buffer {
+        background-color: var(--white-5) !important;
+    }
+
+    .pricing-matrix-column-tier {
+        background-color: var(--white-2) !important;
+    }
+
     .ais-Hits-item:hover {
         background-color: #2e2e2e !important;
     }
@@ -2422,7 +2413,20 @@
     a.card.bg-gray-light:hover {
         background-color: var(--white-3) !important;
     }
+
+    .pricing-matrix-row:hover .pricing-matrix-row-text, 
+    .pricing-matrix-row:hover .pricing-matrix-column-feature {
+        background-color: var(--white-3) !important;
+    }
     
+    .markdown-body table tr {
+        background-color: var(--white-1) !important;
+    }
+
+    .markdown-body table tr:nth-child(2n) {
+        background-color: var(--white-1) !important;
+    }
+
     .bg-white {
         background-color: var(--white-1) !important;
     }
@@ -2445,6 +2449,11 @@
     }
     
     /** Links **/
+
+    .subnav-link.selected {
+        color: var(--blue-1);
+    }
+
     .link-gray-dark {
         color: var(--black-1) !important;
     }
@@ -2537,3 +2546,8 @@
         color: var(--black-2) !important;
     }
     }
+
+    a.btn-mktg {
+        color: var(--blue-1) !important;
+    }
+
