@@ -1,6 +1,8 @@
 # github-waffle
 ##### sauce hooked on <a target='_blank' href='https://github.com/zirs3d/github-waffle'>github</a>
 
+Available on <a target='_blank' href='https://greasyfork.org/en/scripts/404758-github-io-darker-with-dev-help-documentation-pages'>greasyfork.org</a>
+
 This is the Github Darker with Dev/Help Documentation pages for <a target='_blank' href='https://github.com'>Github.com</a> 
 
 Steps on how to use User styles - 
