@@ -3,7 +3,7 @@
 @description        This is the GitHub Darker with Dev/Help Documentation pages
 @author             zirs3d
 @license            CC0-1.0
-@version            0.0.3
+@version            0.0.4
 @namespace https://greasyfork.org/users/517035
 ==/UserStyle== */
 
@@ -1740,6 +1740,7 @@
     
     .menu-item {
         border-color: var(--white-3);
+        color: var(--black-1);
     }
     
     .menu-item:hover {
